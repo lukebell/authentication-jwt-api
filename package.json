@@ -1,0 +1,26 @@
+{
+  "name": "authentication-jwt-api",
+  "tittle": "Cablevision Authentication API",
+  "version": "1.0.0",
+  "description": "The Authentication Endpoint for JWT",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://asoria@bitbucket.org/cablevisionarq/authentication-jwt-api.git"
+  },
+  "author": "@Lucas Campana Levy @Andres Natanael Soria",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "~1.8.1",
+    "request": "~2.72.0",
+    "restify": "~4.0.4",
+    "soap": "~0.14.0",
+    "swagger-node-restify": "git://github.com/early-birds/swagger-node-restify.git"
+  },
+  "devDependencies": {
+    "mocha": "~2.4.5"
+  }
+}
